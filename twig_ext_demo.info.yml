@@ -1,0 +1,4 @@
+name: Twig Extension Demo
+type: module
+description: 'Provides a Twig extension.'
+core: 8.x

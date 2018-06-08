@@ -1,0 +1,6 @@
+services:
+  twig_ext_demo.twig:
+    class: Drupal\twig_ext_demo\Twig\DemoExtension
+    arguments: ['@date.formatter']
+    tags:
+    - { name: twig.extension }
